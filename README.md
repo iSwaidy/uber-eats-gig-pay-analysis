@@ -34,7 +34,7 @@ An end-to-end data analytics project built on **my own real Uber Eats earnings**
 | **Tips** | $2,619.72 | 31.4% | ❌ Customer-dependent |
 | **Promotions** | $2,258.50 | 27.1% | ❌ Algorithm-dependent |
 
-> **The headline:** Base fare - the only part Uber guarantees — is the largest single source, but still **less than half**. The other **58.5%** of income came from tips and promotions: variable, unpredictable, and outside the driver's control.
+> **The headline:** Base fare - the only part Uber guarantees - is the largest single source, but still **less than half**. The other **58.5%** of income came from tips and promotions: variable, unpredictable, and outside the driver's control.
 
 ---
 
@@ -53,7 +53,7 @@ The promise is simple: drive when you want, get paid per delivery. Over ten mont
 **🔵 *"Timing beats grinding."***
 The highest-earning hours weren't the longest weeks - they were short, promotion-timed ones. The lever a driver actually controls isn't *how many* hours, it's *which* hours.
 
-> *Gig "flexibility" is real — but so is the instability it hides. The data shows the only reliable strategy is selectivity.*
+> *Gig "flexibility" is real - but so is the instability it hides. The data shows the only reliable strategy is selectivity.*
 
 ---
 
@@ -68,7 +68,7 @@ The highest-earning hours weren't the longest weeks - they were short, promotion
 
 ## Process — The Steps I Took
 
-**1. Collect.** Pulled weekly earnings straight from the Uber Eats *Earnings* tab — for each week: Net Fare, Promotions, Tips, Other, Total, Online Hours, Trips, and Points.
+**1. Collect.** Pulled weekly earnings straight from the Uber Eats *Earnings* tab - for each week: Net Fare, Promotions, Tips, Other, Total, Online Hours, Trips, and Points.
 
 **2. Structure.** Built a single source of truth Excel workbook: one row per week (25 active weeks), plus totals and a summary block.
 
@@ -92,7 +92,7 @@ $ per Trip  = DIVIDE([Total Gross], [Total Trips])
 Promo %     = DIVIDE(SUM('Weekly Earnings'[Promotions]), [Total Gross])
 ```
 
-**6. Visualize.** Built five visuals mapped to the story — KPI cards (Setup), donut + stacked column + scatter (Conflict), and a $/hour efficiency column (Resolution).
+**6. Visualize.** Built five visuals mapped to the story - KPI cards (Setup), donut + stacked column + scatter (Conflict), and a $/hour efficiency column (Resolution).
 
 **7. Design.** Applied a custom dark theme in Uber's palette (Eats green `#06C167`, yellow `#FFC043`, accent orange `#ED6E33`, near-black canvas `#14181F`) and rewrote every chart title to carry the narrative.
 
@@ -111,8 +111,6 @@ Promo %     = DIVIDE(SUM('Weekly Earnings'[Promotions]), [Total Gross])
 ├── data/
 │   ├── Uber_Earnings_Full_Record.xlsx   ← cleaned weekly record
 │   └── uber_weekly_earnings.csv         ← reproducible dataset
-└── html-version/
-    └── gig_earnings_dashboard.html      ← Chart.js build (open in browser)
 ```
 
 ---
