@@ -1,0 +1,45 @@
+{
+  "name": "Uber Dark — Gig Pay",
+  "dataColors": ["#06C167", "#FFC043", "#FFFFFF", "#3AA76D", "#276EF1", "#ED6E33", "#7356BF", "#D44333"],
+  "foreground": "#E6E8EC",
+  "foregroundNeutralSecondary": "#9AA3AE",
+  "foregroundNeutralTertiary": "#6E7480",
+  "background": "#14181F",
+  "backgroundLight": "#1B2129",
+  "backgroundNeutral": "#2A323D",
+  "tableAccent": "#06C167",
+  "good": "#06C167",
+  "neutral": "#FFC043",
+  "bad": "#D44333",
+  "textClasses": {
+    "callout": { "fontFace": "Segoe UI", "fontSize": 30, "color": "#06C167" },
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#FFFFFF" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#E6E8EC" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#1B2129" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#2A323D" } }, "radius": 12 }],
+        "dropShadow": [{ "show": true, "color": { "solid": { "color": "#000000" } }, "position": "Outer", "preset": "Custom", "shadowSpread": 1, "shadowBlur": 10, "angle": 90, "shadowDistance": 2, "transparency": 55 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#FFFFFF" } }, "background": { "solid": { "color": "#1B2129" } }, "alignment": "center", "fontSize": 13, "bold": true, "titleWrap": true, "fontFamily": "Segoe UI Semibold" }],
+        "labels": [{ "color": { "solid": { "color": "#E6E8EC" } } }],
+        "legend": [{ "labelColor": { "solid": { "color": "#E6E8EC" } }, "fontSize": 9 }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#9AA3AE" } }, "titleColor": { "solid": { "color": "#9AA3AE" } }, "gridlineColor": { "solid": { "color": "#2A323D" } }, "gridlineShow": false }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#9AA3AE" } }, "titleColor": { "solid": { "color": "#9AA3AE" } }, "gridlineColor": { "solid": { "color": "#232A33" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#14181F" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#14181F" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [{ "color": { "solid": { "color": "#06C167" } }, "fontSize": 30, "bold": true, "fontFamily": "Segoe UI" }],
+        "categoryLabels": [{ "show": true, "color": { "solid": { "color": "#9AA3AE" } }, "fontSize": 10 }]
+      }
+    }
+  }
+}
