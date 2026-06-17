@@ -15,7 +15,7 @@ An end-to-end data analytics project built on **my own real Uber Eats earnings**
 
 ---
 
-## TL;DR — Key Findings
+## Key Findings
 
 | Metric | Value |
 |---|---|
