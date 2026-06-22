@@ -5,7 +5,6 @@
 ![Power Query](https://img.shields.io/badge/Power%20Query-376C2C?style=for-the-badge)
 ![DAX](https://img.shields.io/badge/DAX-01B8AA?style=for-the-badge)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![HTML/JS](https://img.shields.io/badge/HTML%20%2F%20Chart.js-E2553C?style=for-the-badge&logo=javascript&logoColor=white)
 
 An end-to-end data analytics project built on **my own real Uber Eats earnings** - ten months, 25 active weeks, 1,031 deliveries. It takes raw weekly app screenshots all the way through cleaning, modeling, and a designed Power BI report, and turns the numbers into a single uncomfortable finding: **the part of gig pay you can actually count on is less than half of it.**
 
